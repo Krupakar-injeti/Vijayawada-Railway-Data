@@ -59,13 +59,13 @@ This project offers a synthetic yet realistic dataset featuring fare breakdowns,
    cd Vijayawada-Railway-Data
 Install dependencies
 
-bash
+'''bash
 Copy
 Edit
 pip install -r requirements.txt
 Launch Jupyter Notebook
 
-bash
+'''bash
 Copy
 Edit
 jupyter notebook
