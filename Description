@@ -1,0 +1,85 @@
+# 🚆 Vijayawada Railway Data
+
+This repository contains detailed and approximate train schedule, routes, and priority information for trains passing through **Vijayawada Junction (BZA)**.  
+It’s designed for **data analysis, visualization, and machine learning experiments** related to Indian Railways.
+
+---
+
+## 📂 Dataset Overview
+The dataset (`vijayawada_trains_approx50.csv`) includes:
+- **Train Number & Name**
+- **Source & Destination**
+- **Arrival & Departure Times**
+- **Priority Levels**
+- **Approximate timings and details** for better analysis
+
+> ⚠️ Data is approximate and **not for real-time railway operations**.
+
+---
+
+## 📊 Example Use Cases
+- Railway schedule visualizations
+- Predicting train delays
+- Priority-based route analysis
+- Building railway timetable dashboards
+- Data science & machine learning projects
+
+---
+
+## 📸 Sample Dataset Preview
+
+| Train No. | Train Name          | Source | Destination | Arrival  | Departure | Priority |
+|-----------|--------------------|--------|-------------|----------|-----------|----------|
+| 12728     | Godavari Express    | HYB    | VSKP        | 06:30    | 06:35     | High     |
+| 12805     | Janmabhoomi Express | SC     | VSKP        | 09:10    | 09:15     | Medium   |
+| 12739     | Garib Rath Express  | VSKP   | SC          | 14:20    | 14:25     | High     |
+
+---
+
+## ⚙️ Installation & Setup
+You can use this dataset with **Python** and **Jupyter Notebook**.
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Krupakar-injeti/Vijayawada-Railway-Data.git
+   cd Vijayawada-Railway-Data
+Open Jupyter Notebook
+
+bash
+Copy
+Edit
+jupyter notebook
+Load the Dataset in Python
+
+python
+Copy
+Edit
+import pandas as pd
+
+df = pd.read_csv('vijayawada_trains_approx50.csv')
+print(df.head())
+📈 Example Visualization in Python
+python
+Copy
+Edit
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('vijayawada_trains_approx50.csv')
+
+priority_counts = df['Priority'].value_counts()
+priority_counts.plot(kind='bar', color=['green', 'orange', 'red'])
+plt.title('Train Priority Distribution - Vijayawada Junction')
+plt.xlabel('Priority')
+plt.ylabel('Number of Trains')
+plt.show()
+🤝 Contributing
+Fork the repo
+
+Add your enhancements
+
+Create a Pull Request
+
+📜 License
+This dataset is for educational and research purposes only.
+It is not affiliated with Indian Railways.
