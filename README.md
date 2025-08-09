@@ -57,3 +57,16 @@ This project offers a synthetic yet realistic dataset featuring fare breakdowns,
    ```bash
    git clone https://github.com/Krupakar-injeti/Vijayawada-Railway-Data.git
    cd Vijayawada-Railway-Data
+Install dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Launch Jupyter Notebook
+
+bash
+Copy
+Edit
+jupyter notebook
+Open and run the railway_fare_prediction.ipynb file for the full analysis.
