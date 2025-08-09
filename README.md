@@ -59,14 +59,10 @@ This project offers a synthetic yet realistic dataset featuring fare breakdowns,
    cd Vijayawada-Railway-Data
 Install dependencies
 
-'''bash
-Copy
-Edit
-pip install -r requirements.txt
-Launch Jupyter Notebook
+```bash
+ pip install -r requirements.txt
 
-'''bash
-Copy
-Edit
-jupyter notebook
+
+```bash
+
 Open and run the railway_fare_prediction.ipynb file for the full analysis.
