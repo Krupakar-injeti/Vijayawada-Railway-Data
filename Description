@@ -17,7 +17,7 @@ The dataset (`vijayawada_trains_approx50.csv`) includes:
 
 ---
 
-## 📊 Example Use Cases
+## 📊 Example Use Cases 
 - Railway schedule visualizations
 - Predicting train delays
 - Priority-based route analysis
